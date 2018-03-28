@@ -70,7 +70,7 @@ def image_crop(file_path, crop_position=0):
     im = Image.open(file_path)
     w, h = im.size
     d = w - h
-    crop_position = (crop_position + 1.0) // 2.0
+    crop_position = (crop_position + 1.0) / 2.0
     p = int(d * crop_position)
     # set image size
     # if width is longer, crop horizontally
