@@ -3,4 +3,5 @@
 This is for processing data for self use.
 
 
-`data_processing.py` : image and movie(`.MOV`,`.m4v` etc.) data processing
+`image.py` : image and movie(`.MOV`,`.m4v` etc.) data processing
+`text.py` : reading text file from directory
